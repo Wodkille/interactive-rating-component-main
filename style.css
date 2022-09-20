@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    grid-template-columns: 420px;
+    grid-template-rows: 80px 40px 80px 90px 70px ;
+    gap: 0;
+    background-color: hsl(213, 19%, 18%);
+    height: 365px;
+    width: 420px;
+    border-radius: 20px ;
+   margin: 50px;
+   
+}
+
+
+
+.item0{
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item1{
+
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+   
+}
+
+.item1 h1{
+color: hsl(0, 0%, 100%);
+margin-left: 30px;
+margin-top: 20px;
+font-size: 30px;
+
+
+
+
+   
+}
+
+.item2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+   
+}
+
+.item2 p{
+    font-size: 15px;
+   margin: 30px;
+   margin-left: 25;
+   color: hsl(216, 12%, 54%);
+   
+}
+
+.item3{
+    grid-row-start: 4;
+    grid-row-end: 5;
+  
+}
+
+.item3 button{
+    background-color: hsl(214, 13%, 22%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+    
+    border-radius: 30px;
+    color: hsl(216, 12%, 54%);
+    margin-top: 25px;
+    
+}
+
+.item3 button:hover{
+    background-color: hsl(212, 18%, 14%);
+    cursor: pointer;
+    
+}
+
+.item4{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+
+
+.buttonp{
+    height: 42px;
+width: 357px;
+margin-left: 50px;
+border-radius: 25px;
+border: none;
+background-color: hsl(25, 97%, 53%);
+color: white;
+margin-left: 26px;
+margin-top: 8px;
+}
+
+.buttonp:hover{
+    background-color:hsl(25, 100%, 46%) ;
+    cursor: pointer;
+}
