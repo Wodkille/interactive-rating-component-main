@@ -5,22 +5,108 @@
 
 body{
   background-color: hsl(216, 12%, 8%);
-  
+  position: relative;
 }
 
 .container{
     background-color: hsl(213, 19%, 18%);
     display: grid;
     grid-template-columns: 420px;
-    grid-template-rows: 80px 40px 80px 90px 70px ;
+    grid-template-rows: 70px 40px 80px 90px 70px ;
     gap: 0;
-    background-color: hsl(213, 19%, 18%);
+    
     height: 365px;
     width: 420px;
     border-radius: 20px ;
-   margin: 50px;
+    margin: auto;
+    margin-top: 200px;
+    place-content: center;
+   
    
 }
+ 
+#estre{
+   
+}
+
+.item0{
+    
+}
+
+.path{
+
+}
+
+.bo{
+display: flex;
+justify-content: center;
+align-items: center;
+    width:40px;
+    height: 40px;
+    background-color: hsl(223, 11%, 25%);
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 420px;
+    grid-template-rows: 150px 60px 40px 90px  ;
+    gap: 0;
+    background-color: hsl(217, 17%, 15%);
+    height: 365px;
+    width: 420px;
+    border-radius: 20px ;
+    margin: auto;
+    place-content: center;
+
+   
+   
+}
+
+.imga{
+  margin: auto;
+    margin-left: 117px;
+}
+
+.item22{
+    width: 250px;
+    height: 40px;
+ margin: auto;
+    background-color: #31373f;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.item22 p{
+    color: hsl(25, 97%, 53%);
+margin-top: 9px;
+}
+
+.item32 h1{
+    color: white;
+    margin-left: 130px;
+    margin-top: 0px;
+}
+
+
+.item42{
+    
+
+   text-align: center;
+}
+
+.item42 p{
+    font-size: 15px;
+   
+margin-left: 45px;
+margin-right: 45px;
+   color: hsl(216, 12%, 54%);
+   margin-bottom: 150px;
+}
+
+
 
 
 
@@ -71,7 +157,7 @@ font-size: 30px;
 }
 
 .item3 button{
-    background-color: hsl(214, 13%, 22%);
+    background-color: #31373f;
     border: none;
     width: 50px;
     height: 50px;
@@ -84,8 +170,9 @@ font-size: 30px;
 }
 
 .item3 button:hover{
-    background-color: hsl(212, 18%, 14%);
+    background-color: hsl(25, 97%, 53%);
     cursor: pointer;
+    color: white;
     
 }
 
@@ -109,6 +196,7 @@ margin-top: 8px;
 }
 
 .buttonp:hover{
-    background-color:hsl(25, 100%, 46%) ;
+    background-color: white ;
     cursor: pointer;
+    color: hsl(25, 97%, 53%);
 }

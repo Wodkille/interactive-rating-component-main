@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="./behavior.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Overpass:ital,wght@0,400;0,500;1,500&display=swap"
       rel="stylesheet"
@@ -33,46 +34,74 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="item0"></div>
+    <div>
+      <div class="container" id="container">
+        <div class="item0">
+          <div class="bo">
+            <svg
+              class="estre"
+              width="17"
+              height="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+                fill="#FC7614"
+              />
+            </svg>
+          </div>
+        </div>
 
-      <div class="item1">
-        <h1>How did we do?</h1>
+        <div class="item1">
+          <h1>How did we do?</h1>
+        </div>
+
+        <div class="item2">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <div class="item3">
+          <button id="btn1" onclick="marcaColor('btn1')">1</button>
+          <button id="btn2" onclick="marcaColor('btn2')">2</button>
+          <button id="btn3" onclick="marcaColor('btn3')">3</button>
+          <button id="btn4" onclick="marcaColor('btn4')">4</button>
+          <button id="btn5" onclick="marcaColor('btn5')">5</button>
+        </div>
+
+        <div class="item4">
+          <button class="buttonp" id="submitBtn" onclick="namee()">
+            S U B M I T
+          </button>
+        </div>
       </div>
-
-      <div class="item2">
-        <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-      </div>
-
-      <div class="item3">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-      </div>
-
-      <div class="item4">
-        <button class="buttonp">S U B M I T</button>
+      <div class="container2" id="container2" style="visibility: hidden">
+        <div class="item12">
+          <img src="/images/Screenshot_3.png" alt="" class="imga" />
+        </div>
+        <div class="item22">
+          <p>You selected <strong id="valors">x</strong> out of 5</p>
+        </div>
+        <div class="item32">
+          <h1>Thank you!</h1>
+        </div>
+        <div class="item42">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
       </div>
     </div>
-
     <!-- 
 
-  You selected < Add rating here out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  Thank you state end
+  
 
   
   <div class="attribution">
+     Thank you state end
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
